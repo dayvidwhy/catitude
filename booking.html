@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Booking</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script language="javascript" type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<script language="javascript" type="text/javascript">
+
+		
+		//a function to check over the entire form for user errors
+		function checkForm()
+		{
+			var f = document.forms["bookForm"]["fname"].value;
+   			if (f == null || f == "") {
+        		alert("First name must be filled out");
+        		return false;
+    		}
+    		var f = document.forms["bookForm"]["lname"].value;
+   			if (f == null || f == "") {
+        		alert("Last name must be filled out");
+        		return false;
+    		}
+    		var f = document.forms["bookForm"]["email"].value;
+    		var atpos=x.indexOf("@");
+    		var dotpos=x.lastIndexOf("x");
+    		if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {}
+    			alert("not valid email");
+    			return false;
+    		}
+		}
+		//a function to do nothing with the form data
+		function returnForm() 
+		{
+    		return false;
+    	}
+
+		</script>
+	</head>
+	<body>
+		<div id="content">
+			<h1>Catitude Cat Psychologist</h1>
+			<nav id="navigation">
+				<ol>
+					<li><a href=index.html>Home</a></li>
+					<li><a href=about_us.html>About Us</a></li>
+					<li><a href=testimonials.html>Testimonials</a></li>
+					<li><a href=gallery.html>Gallery</a></li>
+					<li><a href=cat_symptoms_faq.html>Cat Symptoms</a></li>
+					<li><a href=booking.html>Book Now</a></li>
+					<li><a href=contact_us.html>Contact Us</a></li>
+				</ol>
+			</nav>
+			<h2>Book Now!</h2>
+			<div>
+				<h3>Making a Booking</h3>
+				<img src="images/flickr_byronchin.jpg" alt="Cat on laptop" id="leftimg" height="280px"/>
+				<p>
+					Thanks for deciding to make a booking here at our Cat Psychology clinic.  We need some more information about you and your catty situation to better help you when we first get in touch.
+				</p>
+				<p>
+					Prices for consultations are determined during the first meeting which is provided to you entirely free.  Take this no obligation opportunity to see what the Catitude Clinic can do for you and your catty friend.  We are the solution you are looking for in human feline interactions.
+				</p>
+			</div>
+			<form name="bookForm" method="post" action="javascript:returnForm()" onsubmit="return checkForm()">
+				<fieldset>
+					<legend>Tell us about you.</legend>
+					<p><label for="fname">First Name</label> <input type="text" name="fname" id="fname"/>
+					<label for="lname">Last Name</label> <input type="text" name="lname" id="lname"/>
+					</p>
+					<p><label for="phone">Phone</label> <input type="text" name="phone" id="phone" />
+					<label for="email">Email</label> <input type="text" name="email" id="email" required/>
+					</p>
+					<p><label for="email">Age</label> <input type="text" name="age" id="age"/>
+					</p>
+					<p><label for="gender_male">Male</label> <input type="radio" name="gender" id="gender_male" value="male" />
+					<label for="gender_female">Female</label> <input type="radio" name="gender" id="gender_female" value="female" />
+					<label for="gender_nds">Non-Disclose</label> <input type="radio" name="gender" id="gender_nds" value="nds" />
+					</p>
+				</fieldset>
+				<fieldset>
+					<legend>Tell us about your cat</legend>
+					<p>
+					<label for="cfname">First Name</label> <input type="text" name="cfname" id="cfname" required/>
+					<label for="clname">Last Name</label> <input type="text" name="clname" id="clname" required/>
+					</p>
+					<p>
+						<label for="breed">Breed</label>
+						<select name="colour" id="breed">
+							<option value="choose" selected="selected">Choose a breed</option>
+							<option value="persian">Persian</option>
+							<option value="mainecoon">Maine Coon</option>
+							<option value="siamese">Siamese</option>
+							<option value="calico">Calico</option>
+							<option value="ragdoll">Ragdoll</option>
+							<option value="shorthair">American Shorthair</option>
+							<option value="shorthair">Other</option>
+						</select>
+					<label for="otherbreed">Can't find yours?</label> <input type="otherbreed" name="otherbreed" id="otherbreed" value="(breed)"/>
+					</p>
+					<p>
+				<label for="gender_male">Male</label> <input type="radio" name="gender" id="gender_male" value="male" />
+				<label for="gender_female">Female</label> <input type="radio" name="gender" id="gender_female" value="female" />
+				</p>
+				</fieldset>
+				<fieldset>
+					<legend>Tell us about your problem</legend>
+					<p><label for="problem">What's the problem?</label>
+					</p>
+					<textarea id="problem" name="problem" rows="10" cols="50">
+					</textarea>			
+				</fieldset>
+				<fieldset>
+					<legend>All done?</legend>
+					<p>
+						<input type="reset" name="reset" value="Clear the Booking" />
+						<input type="submit" name="submit" value="Submit Booking" />
+					</p>
+				</fieldset>
+				<input type="hidden" name="userToken" value="82903472039874" />
+			</form>
+			<footer>
+				<ul>
+					<li><a href=index.html>Home</a></li>
+					<li><a href=about_us.html>About Us</a></li>
+					<li><a href=testimonials.html>Testimonials</a></li>
+					<li><a href=gallery.html>Gallery</a></li>
+					<li><a href=cat_symptoms_faq.html>Cat Symptoms</a></li>
+					<li><a href=booking.html>Book Now</a></li>
+					<li><a href=contact_us.html>Contact Us</a></li>
+				</ul>
+				<ul>
+					<li id="firstlist">Address</li>
+					<li>3 Zamia Street</li>
+					<li>Sunnybank,</li>
+					<li>QLD 4109</li>
+					<li>&nbsp;</li>
+					<li>&nbsp;</li>
+					<li>&nbsp;</li>
+				</ul>
+				<ul>
+					<li id="firstlist">Contact</li>
+					<li>(07) 3412 1808</li>
+					<li>supernova@catitude.com</li>
+					<li>&nbsp;</li>
+					<li>&nbsp;</li>
+					<li>&nbsp;</li>
+					<li>&nbsp;</li>
+				</ul>
+				<ul>
+					<li id="firstlist">Legal</li>
+					<li>Copyright &copy; 1995 - 2015</li>
+					<li>All rights reserved.</li>
+					<li>&nbsp;</li>
+					<li>&nbsp;</li>
+					<li>&nbsp;</li>
+					<li>&nbsp;</li>
+				</ul>
+			</footer>
+		</div>
+	</body>
+</html>

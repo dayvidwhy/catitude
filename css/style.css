@@ -1,0 +1,166 @@
+
+/*
+*COLOUR
+*LIGHT BROWN: #A98C61
+*DARK BROWN: #936A3A
+*DARK GREY: #737574
+*LIGHT GREY: #BDB8B0
+*DARKER: #050608
+*BLACK: #000000
+*WHITE #ffffff
+*/
+
+html{
+	background-color: #BDB8B0;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/*sets the overall style for the main centre block element*/
+body {
+	width: 80%;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #ffffff;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.3999996185303px;
+	margin: auto;
+	padding: 1em;
+	box-shadow: 2px 2px 7px rgba(0,0,0,0.5);
+}
+
+div {
+	margin: 0.5em;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: black;
+	overflow: auto;
+	background-color: #ffffff;
+	height: 100%;
+}
+
+h1 {
+	background-color: #BDB8B0;
+	text-align: center;
+	padding: 1em;
+	font-size: 50px;
+	text-shadow: 3px 2px 0 #BF5E1C, 3px 3px 0 #5C3D29;
+	box-shadow: 2px 2px 7px rgba(0,0,0,0.5);
+
+}
+
+h2 {
+	margin-top: 50px;
+	font-size: 36px;
+	color: #936A3A;
+	text-align: center;
+
+}
+
+h3 {
+	font-size: 23px;
+}
+
+h4#contactcat {
+	font-size: 32px;
+	color: #936A3A;
+	padding-top: 9em;
+
+}
+
+/*Used to style the contact page text below map*/
+section {
+	float: right;
+	width: 400px;
+}
+
+/*Following #navigation styles set the navigation bar up*/
+nav#navigation {
+	background-color: #936A3A;
+	text-align: center;
+	padding: 0.5em;
+	box-shadow: 2px 2px 7px rgba(0,0,0,0.5);
+
+}
+nav#navigation li{
+	padding: 0.25em;
+	background-color: #936A3A;
+	text-align: center;
+	display: inline;
+	font-size: 3ex;
+}
+
+/*Styles the footer at the bottom of each page*/
+footer {
+	width: 100%;
+	font-size: 10px;
+	padding-top: 1em;
+	background-color: #A98C61;
+	float: left;
+	box-shadow: 2px 2px 7px rgba(0,0,0,0.5);
+}
+
+ul {
+    padding: 10px;
+    display: inline-block;
+    width: 200px;
+
+}
+
+footer li {
+	padding: 0.5em;
+	text-align: left;
+	display: block;
+	font-size: 3ex;
+}
+
+/*styling for images*/
+img {
+	border: 1px solid rgba(0,0,0,0.5);
+	box-shadow: 2px 2px 7px rgba(0,0,0,0.5);
+}
+
+/*Causes the first element in the list to have a bottom border*/
+#firstlist {
+	color: black;
+	border-bottom: solid black;
+	font-size: 20px;
+	text-align: center;
+}
+
+/*Id's to float our images and give padding without repitition*/
+#leftimg {
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: left;
+}
+#rightimg {
+	margin-left: 20px;
+	margin-bottom: 20px;
+	float: right;
+}
+
+/*Style for links on the page
+*Clicking links makes the go white while pressed.
+*Hovering causes links to become italics
+*Links are black
+*/
+a:link{
+	color: #000000;
+
+}
+
+a:visited{	
+	color: #000000;
+}
+
+a:hover{
+	font-style: italic;
+}
+
+a:active{
+	color: #BDB8B0;
+	
+}
