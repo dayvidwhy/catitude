@@ -1,11 +1,10 @@
 
 /*
 *COLOUR
-*LIGHT BROWN: #A98C61
-*DARK BROWN: #936A3A
-*DARK GREY: #737574
-*LIGHT GREY: #BDB8B0
-*DARKER: #050608
+light-orange: #ff8811
+bright-orange: #ffcc88
+grey: #eeeedd
+dark-orange: #cc5500
 *BLACK: #000000
 *WHITE #ffffff
 */
@@ -24,8 +23,11 @@ body {
 
 /*let our images take up their divs*/
 img {
-	width: 100%;
-	float: left;
+	width: 90%;
+}
+
+.person {
+	border-radius: 50%;
 }
 
 /*grid*/
@@ -168,6 +170,7 @@ img {
 h1 {
 	font-size: 1.8em;
 	margin: 10px 0;
+	color: #cc5500;
 }
 
 h2 {
@@ -194,6 +197,15 @@ h4 {
 
 h5 {
 	font-size: 1.5em;
+	margin: 10px 0;
+	color: #ff8811;
+}
+
+h6 {
+	width: 100%;
+	padding: 1em 0;
+	color: #FFF;
+	font-size: 3em;
 	margin: 10px 0;
 }
 
@@ -232,6 +244,25 @@ nav ol li a:hover {
 	color: #e67e22;
 }
 
+aside {
+	position: fixed;
+}
+
+aside ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+aside ol li {
+	margin: 10px 0;
+	padding: 0;
+}
+
+aside ol li a {
+
+}
+
 /*Styles the footer at the bottom of each page*/
 footer {
 	width: 100%;
@@ -255,14 +286,42 @@ footer ul li {
 	font-size: 3ex;
 }
 
+p.footer-heading {
+	font-size: 2em;
+	font-weight: 400;
+}
+p.footer-about {
+	font-size: 1.5em;
+}
+
 /*Causes the first element in the list to have a bottom border*/
 .firstlist {
-	font-size: 20px;
+	font-size: 2em;
 	font-weight: 400;
 }
 
 .brown-bg {
-	background-color: #A98C61;
+	background-color: #cc5500;
+}
+
+.red-bg {
+	background-color: #cc5500;
+}
+
+.li-orange {
+	background-color: #ff8811;
+}
+
+.bri-orange {
+	background-color: #ffcc88;
+}
+
+.grey-bg {
+	background-color: #eeeedd;
+}
+
+.dark-orange {
+	background-color: #cc5500;
 }
 
 #sitemap {
