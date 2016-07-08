@@ -13,13 +13,13 @@
 				<div class="col-3 offset-1">
 					<ul>
 						<li id="sitemap">SITEMAP</li>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="testimonials.html">Testimonials</a></li>
-						<li><a href="gallery.html">Gallery</a></li>
-						<li><a href="symptoms.html">Cat Symptoms</a></li>
-						<li><a href="booking.html">Book Now</a></li>
-						<li><a href="contact.html">Contact Us</a></li>
+						<li><a href="index.php">Home</a></li>
+						<li><a href="about.php">About Us</a></li>
+						<li><a href="testimonials.php">Testimonials</a></li>
+						<li><a href="gallery.php">Gallery</a></li>
+						<li><a href="symptoms.php">Cat Symptoms</a></li>
+						<li><a href="booking.php">Book Now</a></li>
+						<li><a href="contact.php">Contact Us</a></li>
 					</ul>
 				</div>
 				<div class="col-3">
