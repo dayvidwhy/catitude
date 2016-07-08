@@ -390,6 +390,25 @@ p.footer-about {
 	color: #cc5500;
 }
 
+.copyright {
+	font-size: 0.9em;
+	color: #000;
+	margin: 5px 0;
+}
+
+.copyright a {
+	text-decoration: underline;
+	color: #000;
+}
+.copyright a:hover {
+	text-decoration: underline;
+	color: #eeeedd;
+}
+
+.row-copy {
+	padding: 0.2em 0;
+}
+
 .gallery-head {
 	color: #ff8811;
 }

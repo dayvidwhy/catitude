@@ -35,4 +35,11 @@
 			</footer>
 		</div>
 	</div>
+	<div class="row row-copy bri-orange">
+		<div class="grid-container">
+			<p class="copyright">
+				Website by <a href="https://davidyoung.tech">David Young</a>
+			</p>
+		</div>
+	</div>
 </div>
