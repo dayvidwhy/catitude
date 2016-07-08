@@ -22,18 +22,18 @@
 							<li><a href="#scratching">Scratching</a></li>
 							<li><a href="#licking">Licking</a></li>
 							<li><a href="#knead">Kneading</a></li>
-							<li><a href="#rubbing">Yawning</a></li>
-							<li><a href="#rubbing">Submissive</a></li>
-							<li><a href="#rubbing">Burying</a></li>
-							<li><a href="#rubbing">Flehmening</a></li>
-							<li><a href="#rubbing">Diet</a></li>
-							<li><a href="#rubbing">Overweight</a></li>
-							<li><a href="#rubbing">Drinks</a></li>
-							<li><a href="#rubbing">Treats</a></li>
+							<li><a href="#yawn">Yawning</a></li>
+							<li><a href="#submissive">Submissive</a></li>
+							<li><a href="#bury">Burying</a></li>
+							<li><a href="#flehmening">Flehmening</a></li>
+							<li><a href="#diet">Diet</a></li>
+							<li><a href="#weight">Overweight</a></li>
+							<li><a href="#drinks">Drinks</a></li>
+							<li><a href="#treats">Treats</a></li>
 						</ol>
 					</aside>
 				</div>
-				<div class="col-10 offset-2">
+				<div id="content" class="col-10">
 					<div id="rubbing" class="row">
 						<h5>Rubbing</h5>
 						<p>
@@ -125,7 +125,7 @@
 							<a href="#top">Go to top</a>
 						</p>
 					</div>
-					<div class="row">
+					<div id="yawn" class="row">
 						<h5>Yawning and Sleeping</h5>
 						<p>
 							As well as yawning because they are tired (and cats do seem to have a very well developed sense of the importance of sleeping and napping), your cat or kitten may also yawn in order to show their affection. It is likely that this is the cat’s way of telling you that it feels safe and relaxed in your company and so does not need to be on the alert. Sleeping on your lap or on your bed is also a sign of trust and affection.
@@ -134,7 +134,7 @@
 							<a href="#top">Go to top</a>
 						</p>
 					</div>
-					<div class="row">
+					<div id="submissive" class="row">
 						<h5>Submissive Poses</h5>
 						<p>
 							A cat may strike a submissive pose because it is scared or nervous. This will generally include holding the tail low or between the legs, holding the head pointed downwards and possibly even prostrating itself entirely before you.
@@ -149,7 +149,7 @@
 							<a href="#top">Go to top</a>
 						</p>
 					</div>
-					<div class="row">
+					<div id="bury" class="row">
 						<h5>Burying Poo</h5>
 						<p>
 							In the wild, a subordinate cat will often bury it’s poo in order to hide its presence from the dominant cats in the area. An alpha cat will leave their poo uncovered because they are confident of their dominance and wish to assert ownership over their territory. Domestic cats also take on this behavior so that in a household with only one cat, the cat may well bury his poo as he feels that his human companion is dominant. If there is more than one cat in the household, there may be an obviously dominant cat and an obviously subordinate cat, or all cats may consider themselves to be dominant or subordinate!
@@ -158,7 +158,7 @@
 							<a href="#top">Go to top</a>
 						</p>
 					</div>
-					<div class="row">
+					<div id="flehmening" class="row">
 						<h5>Flehmening</h5>
 						<p>
 							When your cat screws up his face and curls his lips back show his upper and lower teeth this is known as Flehmening. He does this in order to get more information about a smell he has discovered by allowing the smell to register with Jackobsen’s Organ. This organ is located in the roof of his mouth and is also associated with appetitive and sexual behavior. In the wild, Flehmening is quite pronounced but domestic cats rarely use this technique and when they do it tends to be less dramatic. 
@@ -167,7 +167,7 @@
 							<a href="#top">Go to top</a>
 						</p>
 					</div>
-					<div class="row">
+					<div id="diet" class="row">
 						<h5>Cat Diet</h5>
 						<p>
 							Cats require a balanced diet to stay healthy. They are carnivorous creatures so their diet should include plenty of meat. They need a mixture of proteins, carbohydrates, fats, minerals, vitamins and water.
@@ -179,7 +179,7 @@
 							<a href="#top">Go to top</a>
 						</p>
 					</div>
-					<div class="row">
+					<div id="weight" class="row">
 						<h5>Overweight Cats</h5>
 						<p>
 							Cat obesity is becoming a problem and the recommendations from cat food suppliers about how much to feed you cats are often excessive. The amount of exercise they get is a big factor and, while a cat that plays outdoors will burn off a lot of calories, an indoor cat will not be getting as much exercise and may put on weight more easily. Overweight cats can suffer from a number of problems in later life including diabetes, heart disease, arthritis and respiratory problems.
@@ -197,7 +197,7 @@
 							<a href="#top">Go to top</a>
 						</p>
 					</div>
-					<div class="row">
+					<div id="drinks" class="row">
 						<h5>Cat Drinks</h5>
 						<p>
 							You should always provide a bowl of water for your cat and try to make sure you keep it fairly fresh. If you find that your cat often pokes their head into your drink glasses it may be a sign that they are thirsty but, like us, they won't drink water if it has been sitting out for a long time.
@@ -209,7 +209,7 @@
 							<a href="#top">Go to top</a>
 						</p>
 					</div>
-					<div class="row">
+					<div id="treats" class="row">
 						<h5>Cat Treats</h5>
 						<p>
 							It's nice to give your cat the occasional treat but avoid giving them milk, cheese, yoghurt and especially chocolate. Most human food, especially processed food, is not suitable for cats and will give them an upset stomach. If you want to give your cat a treat that they will love then fresh fish or tinned tuna and chicken always goes down well.
@@ -226,5 +226,31 @@
 		</div>
 		<?php include 'snippets/footer.php';?>
 	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript">
+	var sidebar = $('aside').offset().top;
+	$(window).scroll(function() {                  
+		var currentScroll = $(window).scrollTop();
+		if (currentScroll >= sidebar) {
+			$('aside').css({
+				position: 'fixed',
+				top: '10px'
+			});
+			$("#content").addClass('offset-2');
+		} else {
+			$('aside').css({
+				position: 'static'
+			});
+			$("#content").removeClass('offset-2');
+		}
+	});
+	$('aside ol li a').click(function(event){
+		event.preventDefault();
+		$('html, body').animate({
+			scrollTop: $( $.attr(this, 'href') ).offset().top
+		}, 500);
+		return false;
+	});
+	</script>
 </body>
 </html>

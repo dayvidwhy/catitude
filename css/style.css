@@ -224,7 +224,7 @@ h5 {
 
 h6 {
 	width: 100%;
-	padding: 1em 0;
+	padding: 0.2em 0;
 	color: #FFF;
 	font-size: 3em;
 	margin: 10px 0;
@@ -266,12 +266,12 @@ nav ol li a:hover {
 }
 
 aside {
-	position: fixed;
+	position: absolute;
 }
 
 aside ol {
 	list-style: none;
-	margin: 0;
+	margin: 40px 0 0 0;
 	padding: 0;
 }
 
@@ -281,7 +281,12 @@ aside ol li {
 }
 
 aside ol li a {
+	text-decoration: none;
+}
 
+aside ol li a:hover {
+	text-decoration: underline;
+	color: #ff8811;
 }
 
 label {
@@ -296,16 +301,16 @@ form {
 }
 input[type=text] {
 	width: 100%;
-	padding: 12px 20px;
+	padding: 6px 10px;
 	margin: 8px 0;
-	font-size: 1.3em;
+	font-size: 1em;
 	border: 1px solid #ccc;
 	box-sizing: border-box;
 }
 
 textarea {
 	width: 100%;
-	padding: 12px 20px;
+	padding: 6px 10px;
 	margin: 8px 0;
 	font-size: 1em;
 	border: 1px solid #ccc;
@@ -314,7 +319,7 @@ textarea {
 
 input[type=submit] {
 	width: 100%;
-	background-color: rgb(22,188,156);
+	background-color: #ff8811;
 	color: white;
 	padding: 14px 20px;
 	font-size: 1.3em;
@@ -326,7 +331,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-	background-color: #3498db;
+	background-color: #ffcc88;
 }
 
 button {
@@ -373,10 +378,12 @@ footer ul li {
 p.footer-heading {
 	font-size: 3em;
 	font-weight: 400;
+	color: #cc5500;
 }
 p.footer-about {
 	font-size: 1.5em;
 	line-height: 150%;
+	color: #cc5500;
 }
 
 /*Causes the first element in the list to have a bottom border*/
