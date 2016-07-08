@@ -375,6 +375,10 @@ footer ul li {
 	font-size: 1.5em;
 }
 
+footer ul li a {
+	text-decoration: none;
+}
+
 p.footer-heading {
 	font-size: 3em;
 	font-weight: 400;
@@ -384,6 +388,10 @@ p.footer-about {
 	font-size: 1.5em;
 	line-height: 150%;
 	color: #cc5500;
+}
+
+.gallery-head {
+	color: #ff8811;
 }
 
 /*Causes the first element in the list to have a bottom border*/

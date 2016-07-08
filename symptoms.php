@@ -33,7 +33,7 @@
 						</ol>
 					</aside>
 				</div>
-				<div id="content" class="col-10">
+				<div id="content" class="col-10 offset-2">
 					<div id="rubbing" class="row">
 						<h5>Rubbing</h5>
 						<p>
