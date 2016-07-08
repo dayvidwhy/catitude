@@ -1,40 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!--Looking at the source code I see, thanks for being so interested!-->
-	<meta charset="utf-8"> 
-	<meta name="description" content="Cattitude Cat Psychologist Clinic">
-	<meta name="keywords" content="cat, psychologist, cattitude">
-	<meta name="robots" content="index,follow">
-	<meta content = "Cattitude is a cat psychology clinic" name="Description">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Catitude Cat Psychologist</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<?php include 'snippets/head.php';?>
 </head>
 <body>
 	<div class="grid-fluid">
-		<div class="grid-container">
-			<div class="row">
-				<div class="col-4">
-					<h1>Catitude</h1>
-					<h2>Cat Psychologist</h2>
-				</div>
-				<div class="col-8">
-					<nav>
-						<ol>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">About Us</a></li>
-							<li><a href="testimonials.html">Testimonials</a></li>
-							<li><a href="gallery.html">Gallery</a></li>
-							<li><a href="symptoms.html">Cat Symptoms</a></li>
-							<li><a href="booking.html">Book Now</a></li>
-							<li><a href="contact.html">Contact Us</a></li>
-						</ol>
-					</nav>
-				</div>
-			</div>
-		</div>
+		<?php include 'snippets/header.php';?>
 		<div class="row brown-bg">
 			<div class="grid-container">
 				<h6>WHO ARE WE</h6>
@@ -76,42 +47,7 @@
 				
 			</div>
 		</div>
-		<div class="row bri-orange">
-			<footer class="grid-container">
-				<div class="row">
-					<div class="col-3">
-						<ul>
-							<li id="sitemap">SITEMAP</li>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">About Us</a></li>
-							<li><a href="testimonials.html">Testimonials</a></li>
-							<li><a href="gallery.html">Gallery</a></li>
-							<li><a href="symptoms.html">Cat Symptoms</a></li>
-							<li><a href="booking.html">Book Now</a></li>
-							<li><a href="contact.html">Contact Us</a></li>
-						</ul>
-					</div>
-					<div class="col-3">
-						<ul>
-							<li class="firstlist">CONTACT</li>
-							<li>(07) 3412 1808</li>
-							<li>supernova@catitude.com</li>
-							<li>3 Zamia Street</li>
-							<li>Sunnybank,</li>
-							<li>QLD 4109</li>
-						</ul>
-					</div>
-					<div class="col-6">
-						<p class="footer-heading">
-							ABOUT US
-						</p>
-						<p class="footer-about">
-							Walk on car leaving trail of paw prints on hood and windshield chase red laser dot claws in your leg spread kitty litter all over house. Slap owner's face at 5am until human fills food dish missing until dinner time spread kitty litter all over house thinking longingly about tuna brine.
-						</p>
-					</div>
-				</div>
-			</footer>
-		</div>
+		<?php include 'snippets/footer.php';?>
 	</div>
 </body>
 </html>

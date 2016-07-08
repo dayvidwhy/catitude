@@ -45,6 +45,10 @@ img {
 .row {
 	clear: both;
 	overflow: auto;
+	padding: 2em 0 1em 0;
+}
+
+.nav-row {
 	padding: 1em 0;
 }
 
@@ -54,6 +58,23 @@ img {
 	background: rgb(240,240,240) url(../images/front-bg.jpg) no-repeat;
 	background-size: cover;
 	font-family: sans-serif,Arial,Helvetica Neue,Helvetica; 
+}
+.head-row {
+	width: 100%;
+}
+
+.head-row::after {
+	display: block;
+	height: 5px;
+	background-color: #ffcc88;
+	content: '';
+}
+
+.foot-row::before {
+	display: block;
+	height: 5px;
+	background-color: #ffcc88;
+	content: '';
 }
 
 /*columns go in rows*/
@@ -263,6 +284,69 @@ aside ol li a {
 
 }
 
+label {
+	display: block;
+}
+
+/*forms*/
+
+form {
+	width: 90%;
+	margin: auto;
+}
+input[type=text] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	font-size: 1.3em;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+textarea {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	font-size: 1em;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	width: 100%;
+	background-color: rgb(22,188,156);
+	color: white;
+	padding: 14px 20px;
+	font-size: 1.3em;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-bottom: 10px;
+	transition: all 0.2s ease-in-out;
+}
+
+input[type=submit]:hover {
+	background-color: #3498db;
+}
+
+button {
+	width: 100%;
+	background-color: #3498db;
+	color: #FFF;
+	padding: 14px 20px;
+	font-size: 1.3em;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-bottom: 10px;
+	transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+	background-color: rgb(22,188,156);
+	color: #FFF;
+}	
+
 /*Styles the footer at the bottom of each page*/
 footer {
 	width: 100%;
@@ -283,15 +367,16 @@ footer ul li {
 	padding: 0.5em;
 	text-align: left;
 	display: block;
-	font-size: 3ex;
+	font-size: 1.5em;
 }
 
 p.footer-heading {
-	font-size: 2em;
+	font-size: 3em;
 	font-weight: 400;
 }
 p.footer-about {
 	font-size: 1.5em;
+	line-height: 150%;
 }
 
 /*Causes the first element in the list to have a bottom border*/
