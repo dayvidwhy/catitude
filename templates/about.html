@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-	<?php include 'snippets/head.php';?>
+	{% include 'head.html' %}
 </head>
 <body>
 	<div class="grid-fluid">
-		<?php include 'snippets/header.php';?>
+		{% include 'header.html' %}
 		<div class="row brown-bg">
 			<div class="grid-container">
 				<h6>WHO ARE WE</h6>
@@ -14,7 +14,7 @@
 		<div class="grid-container">
 			<div class="row">
 				<div class="col-3">
-					<img class="person" src="images/about/jackson_supernova.jpg" alt="Jackson Supernova"/>
+					<img class="person" src="{{ url_for('static', filename='images/about/jackson_supernova.jpg') }}" alt="Jackson Supernova"/>
 				</div>
 				<div class="col-9">
 					<h5>Jackson Supernova</h5>
@@ -28,7 +28,7 @@
 			</div>
 			<div class="row">
 				<div class="col-3">
-					<img src="images/about/cynan.jpg" alt="Cat on shelf"/>
+					<img src="{{ url_for('static', filename='images/about/cynan.jpg') }}" alt="Cat on shelf"/>
 				</div>
 				<div class="col-9">
 					<h5>Catitude Clinic</h5>
@@ -47,7 +47,7 @@
 				
 			</div>
 		</div>
-		<?php include 'snippets/footer.php';?>
+		{% include 'footer.html' %}
 	</div>
 </body>
 </html>

@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<?php include 'snippets/head.php';?>
+	{% include 'head.html' %}
 </head>
 <body>
 	<div class="grid-fluid">
-		<?php include 'snippets/header.php';?>
+		{% include 'header.html' %}
 		<div class="row brown-bg">
 			<div class="grid-container">
 				<h6>BOOK NOW</h6>
@@ -74,11 +74,11 @@
 					<p>
 						Prices for consultations are determined during the first meeting which is provided to you entirely free.  Take this no obligation opportunity to see what the Catitude Clinic can do for you and your catty friend.  We are the solution you are looking for in human feline interactions.
 					</p>
-					<img src="images/flickr_byronchin.jpg" alt="Cat on laptop" />
+					<img src="{{ url_for('static', filename='images/flickr_byronchin.jpg') }}" alt="Cat on laptop" />
 				</div>
 			</div>
 		</div>
-		<?php include 'snippets/footer.php';?>
+		{% include 'footer.html' %}
 	</div>
 </body>
 </html>
