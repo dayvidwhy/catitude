@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<?php include 'snippets/head.php';?>
+	{% include 'head.html' %}
 </head>
 <body>
 	<div class="grid-fluid">
-		<?php include 'snippets/header.php';?>
+		{% include 'header.html' %}
 		<div class="row hero-row">
 			<h3>Welcome to Catitude</h3>
 			<h4>Where we help you with your catty problems.</h4>
@@ -13,7 +13,7 @@
 		<div class="grid-container">
 			<div class="row">
 				<div class="col-4">
-					<img class="person" src="images/flickr_Mikael.jpg" alt="Cat licking cat" />
+					<img class="person" src="{{ url_for('static', filename='images/flickr_Mikael.jpg') }}" alt="Cat licking cat" />
 				</div>
 				<div class="col-8">
 					<div class="card">
@@ -64,11 +64,11 @@
 					</div>
 				</div>
 				<div class="col-4">
-					<img class="person" src="images/about/jackson_supernova.jpg" alt="Jackson Supernova"/>
+					<img class="person" src="{{ url_for('static', filename='images/about/jackson_supernova.jpg') }}" alt="Jackson Supernova"/>
 				</div>
 			</div>
 		</div>
-		<?php include 'snippets/footer.php';?>
+		{% include 'footer.html' %}
 	</div>
 </body>
 </html>

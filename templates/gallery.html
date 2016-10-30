@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<?php include 'snippets/head.php';?>
+	{% include 'head.html' %}
 </head>
 <body>
 	<div class="grid-fluid">
-		<?php include 'snippets/header.php';?>
+		{% include 'header.html' %}
 		<div class="row brown-bg">
 			<div class="grid-container">
 				<h6>GALLERY</h6>
@@ -16,7 +16,7 @@
 				<div class="col-6">
 					<div class="card">
 						<div class="card-in">
-							<img src="images/gallery/luna_2.jpg" alt="White Cat Sleeping"/>
+							<img src="{{ url_for('static', filename='images/gallery/luna_2.jpg') }}" alt="White Cat Sleeping"/>
 							<p><span class="gallery-head">Cat: </span>Luna</p>
 							<p><span class="gallery-head">Crime: </span>Sleeping</p>
 						</div>
@@ -25,7 +25,7 @@
 				<div class="col-6">
 					<div class="card">
 						<div class="card-in">
-							<img src="images/gallery/luna_3.jpg" alt="White Cat in box"/>
+							<img src="{{ url_for('static', filename='images/gallery/luna_3.jpg') }}" alt="White Cat in box"/>
 							<p><span class="gallery-head">Cat: </span>Luna</p>
 							<p><span class="gallery-head">Crime: </span>Box thief</p>
 						</div>
@@ -36,7 +36,7 @@
 				<div class="col-6">
 					<div class="card">
 						<div class="card-in">
-							<img src="images/gallery/luna_4.jpg" alt="White Cat Yawning"/>
+							<img src="{{ url_for('static', filename='images/gallery/luna_4.jpg') }}" alt="White Cat Yawning"/>
 							<p><span class="gallery-head">Cat: </span>Luna</p>
 							<p><span class="gallery-head">Crime: </span>Yawning</p>
 						</div>
@@ -45,7 +45,7 @@
 				<div class="col-6">
 					<div class="card">
 						<div class="card-in">
-							<img src="images/gallery/luna_5.jpg" alt="White Cat leaning backwards on its butt"/>
+							<img src="{{ url_for('static', filename='images/gallery/luna_5.jpg') }}" alt="White Cat leaning backwards on its butt"/>
 							<p><span class="gallery-head">Cat: </span>Luna</p>
 							<p><span class="gallery-head">Crime: </span>Unsafe leaning</p>
 						</div>
@@ -56,7 +56,7 @@
 				<div class="col-6">
 					<div class="card">
 						<div class="card-in">
-							<img src="images/gallery/miumiu_1.jpg" alt="Orange cat laying on side"/>
+							<img src="{{ url_for('static', filename='images/gallery/miumiu_1.jpg') }}" alt="Orange cat laying on side"/>
 							<p><span class="gallery-head">Cat: </span>Miu Miu</p>
 							<p><span class="gallery-head">Crime: </span>Sleeping</p>
 						</div>
@@ -65,7 +65,7 @@
 				<div class="col-6">
 					<div class="card">
 						<div class="card-in">
-							<img src="images/gallery/miumiu_2.jpg" alt="Orange cat sitting in lap"/>
+							<img src="{{ url_for('static', filename='images/gallery/miumiu_2.jpg') }}" alt="Orange cat sitting in lap"/>
 							<p><span class="gallery-head">Cat: </span>Miu Miu</p>
 							<p><span class="gallery-head">Crime: </span>Lap thief</p>
 						</div>
@@ -76,7 +76,7 @@
 				<div class="col-6">
 					<div class="card">
 						<div class="card-in">
-							<img src="images/gallery/miumiu_3.jpg" alt="Orange cat looking up"/>
+							<img src="{{ url_for('static', filename='images/gallery/miumiu_3.jpg') }}" alt="Orange cat looking up"/>
 							<p><span class="gallery-head">Cat: </span>Miu Miu</p>
 							<p><span class="gallery-head">Crime: </span>Looking</p>
 						</div>
@@ -85,7 +85,7 @@
 				<div class="col-6">
 					<div class="card">
 						<div class="card-in">
-							<img src="images/gallery/miumiu_4.jpg" alt="Orange cat sitting"/>
+							<img src="{{ url_for('static', filename='images/gallery/miumiu_4.jpg') }}" alt="Orange cat sitting"/>
 							<p><span class="gallery-head">Cat: </span>Miu Miu</p>
 							<p><span class="gallery-head">Crime: </span>Sitting</p>
 						</div>
@@ -93,7 +93,7 @@
 				</div>
 			</div>
 		</div>
-		<?php include 'snippets/footer.php';?>
+		{% include 'footer.html' %}
 	</div>
 </body>
 </html>
