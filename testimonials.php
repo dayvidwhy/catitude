@@ -13,11 +13,6 @@
 		</div>
 		<div class="grid-container">
 			<div class="row">
-				<div class="col-4">
-					<a href="gallery.html">
-						<img class="person" src="images/gallery/luna_1.jpg" alt="Luna"/>
-					</a>
-				</div>
 				<div class="col-8">
 					<h5>Luna</h5>
 
@@ -30,6 +25,11 @@
 					<p>
 						Luna’s favorite treat is roast chicken and she could devour an entire chicken without hesitation. She’s a bit of a diva and will refuse to eat any meat that isn’t cooked, with the exception of fish. Her owners complain she’s getting a little fat but we can assure you that she’s in a healthy weight for a cat of her age.
 					</p>
+				</div>
+				<div class="col-4">
+					<a href="gallery.html">
+						<img class="person" src="images/gallery/luna_1.jpg" alt="Luna"/>
+					</a>
 				</div>
 			</div>
 			<div class="row">
