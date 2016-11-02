@@ -59,7 +59,6 @@
 						<label for="gender_male">Male</label> <input type="radio" name="gender" id="gender_male" value="male" />
 						<label for="gender_female">Female</label> <input type="radio" name="gender" id="gender_female" value="female" />
 						<label for="problem">What's the problem?
-
 							<textarea id="problem" name="problem" rows="10" cols="50"></textarea>
 						</label>
 						<input type="submit" name="submit" value="Submit Booking" />

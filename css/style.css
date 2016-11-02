@@ -10,7 +10,7 @@ dark-orange: #cc5500
 */
 
 html {
-	font-family: sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
 	background-color: #FFF;
 }
@@ -180,12 +180,7 @@ img {
 
 /*general card for holding info*/
 .card {
-	margin: 0 10px;
-}
-
-/*pushes our cards apart*/
-.card-in {
-	margin: 15px 0 15px 0;
+	margin: 15px 10px;
 }
 
 h1 {
@@ -236,6 +231,30 @@ section {
 	width: 400px;
 }
 
+
+/*Style for links on the page
+*Clicking links makes the go white while pressed.
+*Hovering causes links to become italics
+*Links are black
+*/
+a:link{
+	color: #ff8811;
+
+}
+
+a:visited{	
+	color: #000000;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #e67e22;
+}
+
+a:active{
+	color: #BDB8B0;
+}
+
 /*Following #navigation styles set the navigation bar up*/
 nav {
 	text-align: center;
@@ -257,6 +276,7 @@ nav ol li{
 
 nav ol li a {
 	font-size: 1em;
+	color: #000;
 	text-decoration: none;
 }
 
@@ -361,11 +381,11 @@ footer {
 }
 
 footer ul {
-    padding: 10px;
-    display: inline-block;
-    list-style: none;
-    width: 200px;
-    margin: 0;
+	padding: 10px;
+	display: inline-block;
+	list-style: none;
+	width: 200px;
+	margin: 0;
 }
 
 footer ul li {
@@ -419,55 +439,59 @@ p.footer-about {
 	font-weight: 400;
 }
 
-.brown-bg {
-	background-color: #cc5500;
-}
-
-.red-bg {
-	background-color: #cc5500;
-}
-
-.li-orange {
-	background-color: #ff8811;
-}
-
-.bri-orange {
-	background-color: #ffcc88;
-}
-
-.grey-bg {
-	background-color: #eeeedd;
-}
-
-.dark-orange {
-	background-color: #cc5500;
-}
+/*
+* Background Colours
+*/
+.brown-bg {background-color: #cc5500;}
+.red-bg {background-color: #cc5500;}
+.li-orange {background-color: #ff8811;}
+.bri-orange {background-color: #ffcc88;}
+.grey-bg {background-color: #eeeedd;}
+.dark-orange {background-color: #cc5500;}
 
 #sitemap {
 	font-size: 1.9em;
 	font-weight: 400;
 }
 
-/*Style for links on the page
-*Clicking links makes the go white while pressed.
-*Hovering causes links to become italics
-*Links are black
-*/
-a:link{
-	color: #000000;
 
+/*Smaller desktops */
+@media screen and (max-width: 960px) {
+	.grid-container {width: 90%;margin:auto;}
 }
 
-a:visited{	
-	color: #000000;
+@media screen and (max-width: 786px) {
+	.col-4 {
+		width: 50%;
+	}
+	.col-8 {
+		width: 50%;
+	}
+	.col-6 {
+		width: 100%;
+	}
 }
 
-a:hover{
-	text-decoration: underline;
-	color: #e67e22;
-}
-
-a:active{
-	color: #BDB8B0;
-	
+/* Tablets and phones */
+@media screen and (max-width: 600px) {
+	.row {padding: 1em 0 0.5em 0;}
+	.offset-1 {margin-left: 0;}
+	.offset-2 {margin-left: 30%;}
+	.col-10 {width: 70%;}
+	.col-8 {width: 100%;}
+	.col-5 {width: 100%;}
+	.col-4 {width: 100%;}
+	.col-3 {width: 50%;}
+	.col-2 {width: 30%;}
+	.person {
+		width: 60%;
+		margin: auto;
+		display: block;
+	}
+	.hero-row {
+		padding: 3em 0;
+	}
+	aside ol li a {
+		font-size: 0.8em;
+	}
 }

@@ -6,4 +6,5 @@
 <meta content = "Cattitude is a cat psychology clinic" name="Description">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Catitude Cat Psychologist</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/style.css" />
