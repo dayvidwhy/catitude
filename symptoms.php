@@ -41,7 +41,6 @@
 						</p>
 						<p>
 							Rubbing their bodies against your legs is also a good way of reminding you how lovely and affectionate they are when they want to be fed! This can be a little trying at times as they are rather good at tripping you up by trying to run between your legs. Try not to be too angry as this behavior is meant with affection.
-
 						</p>
 						<p>
 							<a href="#top">Go to top</a>
