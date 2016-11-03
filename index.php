@@ -27,10 +27,10 @@
 							Click the links above to learn more.
 						</p>
 						<p>
-							Why don't you <a href="gallery.html">check out our gallery</a> with our two favourite cats Miu Miu and Luna
+							Why don't you <a href="gallery.php">check out our gallery</a> with our two favourite cats Miu Miu and Luna
 						</p>
 						<p>
-							When your ready feel free to <a href="contact_us.html">get in contact with us</a> or go ahead and <a href="booking.html">make a booking.</a>
+							When your ready feel free to <a href="contact.php">get in contact with us</a> or go ahead and <a href="booking.php">make a booking.</a>
 						</p>
 					</div>
 				</div>
@@ -54,7 +54,7 @@
 							Walk on car leaving trail of paw prints on hood and windshield chase red laser dot claws in your leg spread kitty litter all over house. Slap owner's face at 5am until human fills food dish missing until dinner time spread kitty litter all over house thinking longingly about tuna brine.
 						</p>
 						<p>
-							When your ready feel free to <a href="contact_us.html">get in contact with us</a> or go ahead and <a href="booking.html">make a booking.</a>
+							When your ready feel free to <a href="contact.php">get in contact with us</a> or go ahead and <a href="booking.php">make a booking.</a>
 						</p>
 					</div>
 				</div>
