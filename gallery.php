@@ -19,12 +19,12 @@
 					<p><span class="gallery-head">Crime: </span>Sleeping</p>
 				</div>
 			</div>
-		</div>
-		<div class="col-6">
-			<div class="card">
-				<img src="images/gallery/luna_3.jpg" alt="White Cat in box"/>
-				<p><span class="gallery-head">Cat: </span>Luna</p>
-				<p><span class="gallery-head">Crime: </span>Box thief</p>
+			<div class="col-6">
+				<div class="card">
+					<img src="images/gallery/luna_3.jpg" alt="White Cat in box"/>
+					<p><span class="gallery-head">Cat: </span>Luna</p>
+					<p><span class="gallery-head">Crime: </span>Box thief</p>
+				</div>
 			</div>
 		</div>
 		<div class="row">
