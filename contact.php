@@ -19,7 +19,7 @@
 			</div>
 			<div class="col-8">
 				<div class="card">
-					<h5>Our feline friends and I would love to hear from you.</h5>
+					<h5>Meow at us</h5>
 					<p>
 						Feel free to use the form below to ask us any question you might have about our service before going ahead and making a booking.  We monitor these inboxes around the clock and you will be sure to hear back from us as soon as possible.
 					</p>
