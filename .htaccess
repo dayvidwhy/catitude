@@ -1,0 +1,4 @@
+Options +FollowSymLinks +MultiViews +Indexes
+DirectoryIndex index.php
+AddType application/x-httpd-php .php
+ErrorDocument 404 /404.php
