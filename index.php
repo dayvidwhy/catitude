@@ -14,7 +14,7 @@
 			<div class="col-8">
 				<div class="card">
 					<h5>
-						FIRST STEPS TO FELINE HEALTH
+						First Steps To Feline Health
 					</h5>
 					<p>
 						We're glad you took the time to visit our brand new website.  Catitude is the clinic for all of your catty problems and specialises in human to feline interaction.
@@ -41,7 +41,7 @@
 			<div class="col-8">
 				<div class="card">
 					<h5>
-						YOUR ONE STOP MENTAL CAT SHOP
+						Your One Stop Cat Help Shop
 					</h5>
 					<p>
 						Walk on car leaving trail of paw prints on hood and windshield chase red laser dot claws in your leg spread kitty litter all over house. Slap owner's face at 5am until human fills food dish missing until dinner time spread kitty litter all over house thinking longingly about tuna brine.
