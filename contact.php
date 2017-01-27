@@ -14,7 +14,7 @@
 		<div class="row">
 			<div class="col-4">
 				<div class="card">
-					<img class="person" src="images/flickr_zaimoku_woodpile.jpg" alt="Cat licking cat" />
+					<img src="images/flickr_zaimoku_woodpile.jpg" alt="Cat licking cat" />
 				</div>
 			</div>
 			<div class="col-8">
@@ -31,19 +31,19 @@
 				<div class="card">
 					<form method="post" action="#">
 						<label for="fname">First Name
-							<input type="text" name="fname" id="fname" required/>
+							<input placeholder="Your first name." type="text" name="fname" id="fname" required/>
 						</label>
 						<label for="lname">Last Name
-							<input type="text" name="lname" id="lname" required/>
+							<input placeholder="Your last name." type="text" name="lname" id="lname" required/>
 						</label>
 						<label for="email">Email
-							<input type="text" name="email" id="email" required/>
+							<input placeholder="Your email address." type="text" name="email" id="email" required/>
 						</label>
 						<label for="question">Question
-							<textarea id="question" rows="10" cols="50"></textarea>
+							<textarea placeholder="Do your cats play nice?" id="question" rows="10" cols="50"></textarea>
 						</label>
 						<label for="catquestion">Do you own a cat?
-							<select  id="catquestion">
+							<select id="catquestion">
 								<option value="yes">Yes</option>
 								<option value="no">No</option>
 							</select>

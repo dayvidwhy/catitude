@@ -7,5 +7,5 @@
 <meta property="og:description" content="Cattitude Cat Psychologist Clinic." name="Description">
 <title>Catitude Cat Psychologist</title>
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<link rel="canonical" href="http://dwy.io/catitude">
-<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="canonical" href="https://catitude.herokuapp.com/<?php basename(__FILE__, '.php'); ?>">
+<link rel="stylesheet" type="text/css" href="/css/style.css" />

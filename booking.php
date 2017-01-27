@@ -16,19 +16,19 @@
 				<div class="card">
 					<form name="bookForm" method="post">
 						<label for="fname">First Name
-							<input type="text" name="fname" id="fname"/>
+							<input placeholder="Your first name." type="text" name="fname" id="fname"/>
 						</label> 
 						<label for="lname">Last Name 
-							<input type="text" name="lname" id="lname"/>
+							<input placeholder="Your last name." type="text" name="lname" id="lname"/>
 						</label>
 						<label for="phone">Phone
-							<input type="text" name="phone" id="phone" />
+							<input placeholder="Your phone number." type="text" name="phone" id="phone" />
 						</label> 
 						<label for="email">Email 
-							<input type="text" name="email" id="email"/>
+							<input placeholder="Your email address." type="text" name="email" id="email"/>
 						</label>
 						<label for="email">Age 
-							<input type="text" name="age" id="age"/>
+							<input placeholder="Your age." type="text" name="age" id="age"/>
 						</label>
 						<label for="gender_male">Male
 							<input type="radio" name="gender" id="gender_male" value="male" />
@@ -39,9 +39,10 @@
 						<label for="gender_nds">Non-Disclose 
 							<input type="radio" name="gender" id="gender_nds" value="nds" />
 						</label>
-						<label for="cfname">First Name <input type="text" name="cfname" id="cfname"/></label>
-						<label for="clname">Last Name 
-							<input type="text" name="clname" id="clname"/>
+						<label for="cfname">Cats First Name 
+							<input placeholder="Your cats first name." type="text" name="cfname" id="cfname"/></label>
+						<label for="clname">Cats Last Name 
+							<input placeholder="Your cats last name." type="text" name="clname" id="clname"/>
 						</label>
 						<label for="breed">Breed</label>
 						<select name="colour" id="breed">
@@ -58,7 +59,7 @@
 						<label for="gender_male">Male</label> <input type="radio" name="gender" id="gender_male" value="male" />
 						<label for="gender_female">Female</label> <input type="radio" name="gender" id="gender_female" value="female" />
 						<label for="problem">What's the problem?
-							<textarea id="problem" name="problem" rows="10" cols="50"></textarea>
+							<textarea placeholder="My cat is really cute but keeps jumping on the table." id="problem" name="problem" rows="10" cols="50"></textarea>
 						</label>
 						<input type="submit" name="submit" value="Submit Booking" />
 						<input type="hidden" name="userToken" value="82903472039874" />
