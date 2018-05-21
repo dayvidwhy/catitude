@@ -7,5 +7,5 @@
 <meta property="og:description" content="Cattitude Cat Psychologist Clinic." name="Description">
 <title>Catitude Cat Psychologist</title>
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<link rel="canonical" href=<?php echo '"https://catitude.herokuapp.com' . $_SERVER['REQUEST_URI'] . '"'; ?>>
+<link rel="canonical" href=<?php echo '"https://catitude.glitch.me' . $_SERVER['REQUEST_URI'] . '"'; ?>>
 <link rel="stylesheet" type="text/css" href="/css/style.css" />

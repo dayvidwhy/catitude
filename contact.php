@@ -56,7 +56,7 @@
 			<div class="col-6">
 				<div class="card">
 					<h5>Find Us</h5>
-					<img src="http://maps.googleapis.com/maps/api/staticmap?center=-27.5711087,153.060699&#38;size=500x300&#38;zoom=15&#38;markers=color:blue|(-27.5711087 , 153.060699)&#38;sensor=false" alt="Map of Catitude" id="rightimg"/>
+					<img src="https://maps.googleapis.com/maps/api/staticmap?center=-27.5711087,153.060699&#38;size=500x300&#38;zoom=15&#38;markers=color:blue|(-27.5711087 , 153.060699)&#38;sensor=false" alt="Map of Catitude" id="rightimg"/>
 
 					<p>Address: 3 Zamia Street</p>
 					<p>Phone: (07) 3412 1808</p>

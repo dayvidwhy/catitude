@@ -4,6 +4,7 @@
   "description": "A cat based website built for UQ DECO1400.",
   "main": "index.php",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

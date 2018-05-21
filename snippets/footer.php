@@ -12,13 +12,13 @@
 			<div class="col-3 offset-1">
 				<ul>
 					<li id="sitemap">SITEMAP</li>
-					<li><a href="index.php">Home</a></li>
-					<li><a href="about.php">About Us</a></li>
-					<li><a href="testimonials.php">Testimonials</a></li>
-					<li><a href="gallery.php">Gallery</a></li>
-					<li><a href="symptoms.php">Cat Symptoms</a></li>
-					<li><a href="booking.php">Book Now</a></li>
-					<li><a href="contact.php">Contact Us</a></li>
+					<li><a href="/">Home</a></li>
+					<li><a href="/about">About Us</a></li>
+					<li><a href="/testimonials">Testimonials</a></li>
+					<li><a href="/gallery">Gallery</a></li>
+					<li><a href="/symptoms">Cat Symptoms</a></li>
+					<li><a href="/booking">Book Now</a></li>
+					<li><a href="/contact">Contact Us</a></li>
 				</ul>
 			</div>
 			<div class="col-3">

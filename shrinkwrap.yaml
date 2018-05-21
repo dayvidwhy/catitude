@@ -1,0 +1,20 @@
+dependencies:
+  node-php-server: 0.1.2
+packages:
+  /node-php-server/0.1.2:
+    dependencies:
+      open: 0.0.5
+    dev: false
+    resolution:
+      integrity: sha1-ExoFCdYDrs4y+P3kEvUrnEriZig=
+  /open/0.0.5:
+    dev: false
+    engines:
+      node: '>= 0.6.0'
+    resolution:
+      integrity: sha1-QsPhjslUZra/DcQvOilFw/DK2Pw=
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 6
+shrinkwrapVersion: 3
+specifiers:
+  node-php-server: ^0.1.2
